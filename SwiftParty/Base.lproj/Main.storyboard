@@ -71,6 +71,7 @@
                         <segue destination="ZNy-Sf-MuN" kind="show" identifier="label" id="CbE-uC-tTD"/>
                         <segue destination="C4G-x9-U1F" kind="show" identifier="switch" id="pQl-kG-2Qr"/>
                         <segue destination="xpN-Oh-GId" kind="show" identifier="textfield" id="a7l-wY-QBX"/>
+                        <segue destination="5u1-lJ-ijJ" kind="show" identifier="segment" id="VyE-mW-DKk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c0I-ir-f2L" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -118,6 +119,50 @@
             </objects>
             <point key="canvasLocation" x="951" y="-348"/>
         </scene>
+        <!--Segment-->
+        <scene sceneID="3iN-Lm-1UP">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HLM-dz-871" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="5u1-lJ-ijJ" customClass="Segment" customModule="SwiftParty" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ByV-Fu-Dv3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="wna-Wi-QVz">
+                                <rect key="frame" x="10" y="99" width="300" height="29"/>
+                                <segments>
+                                    <segment title="Начало"/>
+                                    <segment title="Середина"/>
+                                    <segment title="Конец"/>
+                                </segments>
+                                <connections>
+                                    <action selector="segmentAction:" destination="5u1-lJ-ijJ" eventType="valueChanged" id="bEB-RR-O1N"/>
+                                </connections>
+                            </segmentedControl>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Segment - список опций, каждую из которых можно выбрать..." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="nYc-vy-G8U">
+                                <rect key="frame" x="10" y="157" width="300" height="197"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="3w3-Sl-xgh" firstAttribute="trailing" secondItem="wna-Wi-QVz" secondAttribute="trailing" constant="10" id="MVF-Fs-ewZ"/>
+                            <constraint firstItem="wna-Wi-QVz" firstAttribute="top" secondItem="3w3-Sl-xgh" secondAttribute="top" constant="35" id="QJo-ug-hDZ"/>
+                            <constraint firstItem="wna-Wi-QVz" firstAttribute="leading" secondItem="3w3-Sl-xgh" secondAttribute="leading" constant="10" id="gIl-Dt-wN5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="3w3-Sl-xgh"/>
+                    </view>
+                    <connections>
+                        <outlet property="segmentOutlet" destination="wna-Wi-QVz" id="bpa-7G-xgR"/>
+                        <outlet property="textView" destination="nYc-vy-G8U" id="YoY-bM-jGK"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="950.625" y="324.2957746478873"/>
+        </scene>
         <!--Switch-->
         <scene sceneID="Bjz-fU-MAE">
             <objects>
@@ -133,7 +178,7 @@
                                 </connections>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Включено" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fgb-4Q-9pP">
-                                <rect key="frame" x="120" y="156" width="81" height="21"/>
+                                <rect key="frame" x="10" y="156" width="300" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -141,9 +186,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="HI9-5Y-des" firstAttribute="trailing" secondItem="fgb-4Q-9pP" secondAttribute="trailing" constant="119" id="1um-Ds-dsc"/>
+                            <constraint firstItem="HI9-5Y-des" firstAttribute="trailing" secondItem="fgb-4Q-9pP" secondAttribute="trailing" constant="10" id="1um-Ds-dsc"/>
                             <constraint firstItem="VAK-QW-NdH" firstAttribute="centerY" secondItem="Szd-lq-REM" secondAttribute="centerY" id="HgW-BD-fIJ"/>
-                            <constraint firstItem="fgb-4Q-9pP" firstAttribute="leading" secondItem="HI9-5Y-des" secondAttribute="leading" constant="120" id="mrI-qe-O4M"/>
+                            <constraint firstItem="fgb-4Q-9pP" firstAttribute="leading" secondItem="HI9-5Y-des" secondAttribute="leading" constant="10" id="mrI-qe-O4M"/>
                             <constraint firstItem="VAK-QW-NdH" firstAttribute="top" secondItem="fgb-4Q-9pP" secondAttribute="bottom" constant="92" id="sBy-gV-skP"/>
                             <constraint firstItem="VAK-QW-NdH" firstAttribute="centerX" secondItem="Szd-lq-REM" secondAttribute="centerX" id="sgM-bS-UfG"/>
                             <constraint firstItem="fgb-4Q-9pP" firstAttribute="top" secondItem="HI9-5Y-des" secondAttribute="top" constant="92" id="vlU-7a-9v7"/>

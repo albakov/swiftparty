@@ -15,5 +15,6 @@ struct Model {
         ["title":"Label", "segue":"label"],
         ["title":"Switch", "segue":"switch"],
         ["title":"Textfield", "segue":"textfield"],
+        ["title":"Segment", "segue":"segment"],
     ]
 }
