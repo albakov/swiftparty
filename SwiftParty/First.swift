@@ -22,6 +22,7 @@ class First: UIViewController, UITableViewDataSource, UITableViewDelegate {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! TableCell
         
         cell.label.text = Model.items[indexPath.row]["title"]
+        cell.imageCell.image = UIImage(named: Model.items[indexPath.row]["image"]!)
         cell.label.sizeToFit()
         
         return cell
@@ -38,6 +39,8 @@ class First: UIViewController, UITableViewDataSource, UITableViewDelegate {
         // TODO; do smth here
         let segue = Model.items[indexPath.row]["segue"] ?? "alert"
         performSegue(withIdentifier: segue, sender: self)
+        
+        table.deselectRow(at: indexPath, animated: true) // убираем выделение при нажатии на ячейку
     }
 
 }
