@@ -10,12 +10,14 @@ import UIKit
 
 class First: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
+    // Table outlet
     @IBOutlet weak var table: UITableView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
     }
 
+    // Add title to each cell
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! TableCell
         
@@ -25,10 +27,12 @@ class First: UIViewController, UITableViewDataSource, UITableViewDelegate {
         return cell
     }
     
+    // Return count if items
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return Model.items.count
     }
     
+    // Show full description of each cell item after select
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         Model.currentId = indexPath.row
         // TODO; do smth here

@@ -16,6 +16,7 @@ struct Model {
         ["title":"Switch", "segue":"switch"],
         ["title":"Textfield", "segue":"textfield"],
         ["title":"Segment", "segue":"segment"],
-        ["title":"Image Content Mode", "segue":"imageMods"]
+        ["title":"Image Content Mode", "segue":"imageMods"],
+        ["title":"Slider", "segue":"slider"],
     ]
 }
