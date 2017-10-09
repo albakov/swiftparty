@@ -19,7 +19,8 @@ struct Model {
         ["title":"Image Content Mode", "segue":"imageMods", "image":"ImageContentMode"],
         ["title":"Slider", "segue":"slider", "image":"Slider"],
         ["title":"Activity Indicator View", "segue":"activityIndicator", "image":"ActivityIndication"],
-        ["title":"Stepper", "segue":"stepper", "image":"Stepper"]
+        ["title":"Stepper", "segue":"stepper", "image":"Stepper"],
+        ["title":"Progress", "segue":"progress", "image":"Progress"],
     ]
 }
 

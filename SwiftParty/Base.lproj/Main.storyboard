@@ -90,6 +90,7 @@
                         <segue destination="kAn-i5-B9r" kind="show" identifier="slider" id="gtV-VS-44I"/>
                         <segue destination="XQT-BE-tbN" kind="show" identifier="activityIndicator" id="KFg-Fv-dMU"/>
                         <segue destination="6m6-ct-JsA" kind="show" identifier="stepper" id="tbe-qb-2Z4"/>
+                        <segue destination="QsF-VG-wRw" kind="show" identifier="progress" id="21n-Gt-3qX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c0I-ir-f2L" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -663,6 +664,74 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tHc-vd-fLa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="965.625" y="3010.5633802816901"/>
+        </scene>
+        <!--Progress-->
+        <scene sceneID="mzc-er-xeU">
+            <objects>
+                <viewController id="QsF-VG-wRw" customClass="Progress" customModule="SwiftParty" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zdA-Ua-DMa">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8vn-AJ-dyP">
+                                <rect key="frame" x="124" y="388" width="72" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="zWm-Nj-KRN"/>
+                                </constraints>
+                                <state key="normal" title="Загрузить">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="buttonAction:" destination="QsF-VG-wRw" eventType="touchUpInside" id="TNg-k7-f9e"/>
+                                </connections>
+                            </button>
+                            <activityIndicatorView opaque="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="2b5-eI-Dc4">
+                                <rect key="frame" x="150" y="297" width="20" height="20"/>
+                            </activityIndicatorView>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progressViewStyle="bar" translatesAutoresizingMaskIntoConstraints="NO" id="lGG-8x-K96">
+                                <rect key="frame" x="16" y="226.5" width="288" height="2.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="2" id="P9p-qU-GKy"/>
+                                    <constraint firstAttribute="width" constant="288" id="bqG-th-0Lb"/>
+                                </constraints>
+                            </progressView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="lGG-8x-K96" firstAttribute="trailing" secondItem="zdA-Ua-DMa" secondAttribute="trailingMargin" id="1Y4-Mu-EDE"/>
+                            <constraint firstItem="lGG-8x-K96" firstAttribute="leading" secondItem="zdA-Ua-DMa" secondAttribute="leading" constant="16" id="3Lj-fA-dbo"/>
+                            <constraint firstItem="8vn-AJ-dyP" firstAttribute="centerX" secondItem="zdA-Ua-DMa" secondAttribute="centerX" id="4PJ-Ca-YO2"/>
+                            <constraint firstItem="2b5-eI-Dc4" firstAttribute="top" secondItem="lGG-8x-K96" secondAttribute="bottom" constant="69" id="6m5-xP-d3t"/>
+                            <constraint firstItem="lGG-8x-K96" firstAttribute="leading" secondItem="zdA-Ua-DMa" secondAttribute="leadingMargin" id="GHx-vr-B8Q"/>
+                            <constraint firstItem="lGG-8x-K96" firstAttribute="leading" secondItem="zdA-Ua-DMa" secondAttribute="leadingMargin" id="LED-c9-q2c"/>
+                            <constraint firstItem="lGG-8x-K96" firstAttribute="trailing" secondItem="zdA-Ua-DMa" secondAttribute="trailingMargin" id="OeM-aH-x65"/>
+                            <constraint firstItem="lGG-8x-K96" firstAttribute="centerX" secondItem="8vn-AJ-dyP" secondAttribute="centerX" id="P5a-Ah-8MC"/>
+                            <constraint firstItem="2b5-eI-Dc4" firstAttribute="top" secondItem="lGG-8x-K96" secondAttribute="bottom" constant="69" id="Q0H-t6-ab2"/>
+                            <constraint firstItem="lGG-8x-K96" firstAttribute="centerX" secondItem="2b5-eI-Dc4" secondAttribute="centerX" id="W1t-a8-SEd"/>
+                            <constraint firstItem="lGG-8x-K96" firstAttribute="top" secondItem="zdA-Ua-DMa" secondAttribute="top" constant="226" id="X5B-pr-6YR"/>
+                            <constraint firstItem="lGG-8x-K96" firstAttribute="centerX" secondItem="zdA-Ua-DMa" secondAttribute="centerX" id="aTb-h7-JZ5"/>
+                            <constraint firstItem="lGG-8x-K96" firstAttribute="top" secondItem="eLG-s5-ruO" secondAttribute="top" constant="162" id="e7i-jg-FO9"/>
+                            <constraint firstItem="lGG-8x-K96" firstAttribute="leading" secondItem="zdA-Ua-DMa" secondAttribute="leading" constant="16" id="gre-xI-oEa"/>
+                            <constraint firstItem="lGG-8x-K96" firstAttribute="top" secondItem="zdA-Ua-DMa" secondAttribute="top" constant="226" id="hSq-mF-jF4"/>
+                            <constraint firstItem="8vn-AJ-dyP" firstAttribute="top" secondItem="2b5-eI-Dc4" secondAttribute="bottom" constant="71" id="pbt-aY-int"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="eLG-s5-ruO"/>
+                    </view>
+                    <connections>
+                        <outlet property="btnOutlet" destination="8vn-AJ-dyP" id="5Gh-Bm-0i7"/>
+                        <outlet property="loadingOutlet" destination="2b5-eI-Dc4" id="pXe-mC-hcm"/>
+                        <outlet property="progressOutlet" destination="lGG-8x-K96" id="XS4-a0-A5u"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FLJ-rO-4xU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="965.625" y="3710.9154929577467"/>
         </scene>
         <!--Switch-->
         <scene sceneID="Bjz-fU-MAE">
