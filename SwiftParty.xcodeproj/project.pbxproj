@@ -10,6 +10,15 @@
 		363A02941F803C8C00410413 /* ImageContentMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363A02931F803C8C00410413 /* ImageContentMode.swift */; };
 		363A02961F81130300410413 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363A02951F81130300410413 /* ActivityIndicator.swift */; };
 		3675CD711F813B2500904D5C /* Stepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3675CD701F813B2500904D5C /* Stepper.swift */; };
+		8468A2FB1F8E74D5004865A4 /* PinchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8468A2FA1F8E74D5004865A4 /* PinchViewController.swift */; };
+		8468A2FE1F8E83B1004865A4 /* TapGestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8468A2FD1F8E83B1004865A4 /* TapGestureViewController.swift */; };
+		8468A3001F8E863A004865A4 /* LongPressGestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8468A2FF1F8E863A004865A4 /* LongPressGestureViewController.swift */; };
+		8468A3021F8E9CC7004865A4 /* SwipeGestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8468A3011F8E9CC7004865A4 /* SwipeGestureViewController.swift */; };
+		8468A3041F8EB982004865A4 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8468A3031F8EB982004865A4 /* PickerViewController.swift */; };
+		84A688041F8D5859006C2B44 /* GestureTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A688031F8D5859006C2B44 /* GestureTableViewController.swift */; };
+		84A688061F8D5933006C2B44 /* GesturesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A688051F8D5933006C2B44 /* GesturesTableViewCell.swift */; };
+		84A6880A1F8D626A006C2B44 /* PanGestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A688091F8D626A006C2B44 /* PanGestureViewController.swift */; };
+		84A6880C1F8D64E2006C2B44 /* RotationGestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A6880B1F8D64E2006C2B44 /* RotationGestureViewController.swift */; };
 		9C2EB1B81F7FB1A00058FDD9 /* Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2EB1B71F7FB1A00058FDD9 /* Switch.swift */; };
 		9C2EB1BA1F7FB45E0058FDD9 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2EB1B91F7FB45E0058FDD9 /* TextField.swift */; };
 		9C36B3961F80E5CA00A4EEEB /* Slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C36B3951F80E5CA00A4EEEB /* Slider.swift */; };
@@ -30,6 +39,15 @@
 		363A02931F803C8C00410413 /* ImageContentMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageContentMode.swift; sourceTree = "<group>"; };
 		363A02951F81130300410413 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 		3675CD701F813B2500904D5C /* Stepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stepper.swift; sourceTree = "<group>"; };
+		8468A2FA1F8E74D5004865A4 /* PinchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinchViewController.swift; sourceTree = "<group>"; };
+		8468A2FD1F8E83B1004865A4 /* TapGestureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureViewController.swift; sourceTree = "<group>"; };
+		8468A2FF1F8E863A004865A4 /* LongPressGestureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGestureViewController.swift; sourceTree = "<group>"; };
+		8468A3011F8E9CC7004865A4 /* SwipeGestureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeGestureViewController.swift; sourceTree = "<group>"; };
+		8468A3031F8EB982004865A4 /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
+		84A688031F8D5859006C2B44 /* GestureTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureTableViewController.swift; sourceTree = "<group>"; };
+		84A688051F8D5933006C2B44 /* GesturesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GesturesTableViewCell.swift; sourceTree = "<group>"; };
+		84A688091F8D626A006C2B44 /* PanGestureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanGestureViewController.swift; sourceTree = "<group>"; };
+		84A6880B1F8D64E2006C2B44 /* RotationGestureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureViewController.swift; sourceTree = "<group>"; };
 		9C2EB1B71F7FB1A00058FDD9 /* Switch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Switch.swift; sourceTree = "<group>"; };
 		9C2EB1B91F7FB45E0058FDD9 /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
 		9C36B3951F80E5CA00A4EEEB /* Slider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slider.swift; sourceTree = "<group>"; };
@@ -59,6 +77,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8468A2FC1F8E7579004865A4 /* Gestures */ = {
+			isa = PBXGroup;
+			children = (
+				84A688031F8D5859006C2B44 /* GestureTableViewController.swift */,
+				84A688051F8D5933006C2B44 /* GesturesTableViewCell.swift */,
+				84A688091F8D626A006C2B44 /* PanGestureViewController.swift */,
+				84A6880B1F8D64E2006C2B44 /* RotationGestureViewController.swift */,
+				8468A2FA1F8E74D5004865A4 /* PinchViewController.swift */,
+				8468A2FD1F8E83B1004865A4 /* TapGestureViewController.swift */,
+				8468A2FF1F8E863A004865A4 /* LongPressGestureViewController.swift */,
+				8468A3011F8E9CC7004865A4 /* SwipeGestureViewController.swift */,
+			);
+			path = Gestures;
+			sourceTree = "<group>";
+		};
 		9CA4240C1F7EE53100061642 = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +137,8 @@
 				363A02951F81130300410413 /* ActivityIndicator.swift */,
 				3675CD701F813B2500904D5C /* Stepper.swift */,
 				9CCA13F21F8BEC5F001FA00F /* Progress.swift */,
+				8468A3031F8EB982004865A4 /* PickerViewController.swift */,
+				8468A2FC1F8E7579004865A4 /* Gestures */,
 			);
 			path = Descriptions;
 			sourceTree = "<group>";
@@ -182,15 +217,24 @@
 			files = (
 				9CFA1EE61F7F911600A0EEE6 /* First.swift in Sources */,
 				9C36B3961F80E5CA00A4EEEB /* Slider.swift in Sources */,
+				84A6880A1F8D626A006C2B44 /* PanGestureViewController.swift in Sources */,
 				9C64501C1F80072400360A10 /* Segment.swift in Sources */,
+				8468A3041F8EB982004865A4 /* PickerViewController.swift in Sources */,
 				363A02941F803C8C00410413 /* ImageContentMode.swift in Sources */,
 				363A02961F81130300410413 /* ActivityIndicator.swift in Sources */,
+				8468A3021F8E9CC7004865A4 /* SwipeGestureViewController.swift in Sources */,
 				9CFA1EE81F7F91A900A0EEE6 /* TableCelll.swift in Sources */,
 				9CFA1EEF1F7FAAC500A0EEE6 /* Label.swift in Sources */,
 				9C2EB1BA1F7FB45E0058FDD9 /* TextField.swift in Sources */,
+				8468A3001F8E863A004865A4 /* LongPressGestureViewController.swift in Sources */,
 				9CA424191F7EE53100061642 /* AppDelegate.swift in Sources */,
 				9CFA1EEC1F7F9A7F00A0EEE6 /* Alert.swift in Sources */,
 				9CCA13F31F8BEC5F001FA00F /* Progress.swift in Sources */,
+				84A6880C1F8D64E2006C2B44 /* RotationGestureViewController.swift in Sources */,
+				8468A2FB1F8E74D5004865A4 /* PinchViewController.swift in Sources */,
+				84A688061F8D5933006C2B44 /* GesturesTableViewCell.swift in Sources */,
+				84A688041F8D5859006C2B44 /* GestureTableViewController.swift in Sources */,
+				8468A2FE1F8E83B1004865A4 /* TapGestureViewController.swift in Sources */,
 				3675CD711F813B2500904D5C /* Stepper.swift in Sources */,
 				9CFA1EEA1F7F926700A0EEE6 /* Model.swift in Sources */,
 				9C2EB1B81F7FB1A00058FDD9 /* Switch.swift in Sources */,

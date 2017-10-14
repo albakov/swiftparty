@@ -20,8 +20,12 @@ class Switch: UIViewController {
     @IBAction func switchAction(_ sender: UISwitch) {
         if switchOutlet.isOn {
             label.text = "Включено"
+            view.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
+            label.textColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
         } else {
             label.text = "Выключено"
+            view.backgroundColor = #colorLiteral(red: 0.1215686277, green: 0.01176470611, blue: 0.4235294163, alpha: 1)
+            label.textColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
         }
     }
     

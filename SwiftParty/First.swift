@@ -37,8 +37,8 @@ class First: UIViewController, UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         Model.currentId = indexPath.row
         // TODO; do smth here
-        let segue = Model.items[indexPath.row]["segue"] ?? "alert"
-        performSegue(withIdentifier: segue, sender: self)
+       if let segue = Model.items[indexPath.row]["segue"] {
+        performSegue(withIdentifier: segue, sender: self) }
         
         table.deselectRow(at: indexPath, animated: true) // убираем выделение при нажатии на ячейку
     }
