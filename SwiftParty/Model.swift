@@ -9,7 +9,13 @@
 import UIKit
 
 struct Model {
+    
+    // MARK: Main variables
+    
+    // Main current Id of category
     static var currentId = 0
+    
+    // Main categories
     static let items = [
         ["title":"Alert", "segue":"alert", "image":"Alert"],
         ["title":"Label", "segue":"label", "image":"Label"],
@@ -24,6 +30,8 @@ struct Model {
         ["title":"Gestures", "segue":"gestures", "image":"RotateGesture"],
         ["title":"Picker View", "segue":"PickerView", "image":"PickerView"],
     ]
+    
+    // MARK: Other variables
     static let pickerViewColorNames = ["red", "blue", "yellow", "green", "green 2", "green 3", "green 4", "green 5"]
     static let gesturesItems = [
         ["title":"Pan Gesture", "segue":"PanGesture", "image":"PanGesture"],

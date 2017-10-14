@@ -14,16 +14,14 @@ class ActivityIndicator: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         self.title = Model.items[Model.currentId]["title"]
     }
-    
-    
+
     @IBAction func startStopAction(_ sender: UIButton) {
         switch sender.tag {
-        case 1: activityIndicatorOutlet.startAnimating()
-        case 2: activityIndicatorOutlet.stopAnimating()
-        default: return
+            case 1: activityIndicatorOutlet.startAnimating()
+            case 2: activityIndicatorOutlet.stopAnimating()
+            default: return
         }
     }
     

@@ -19,8 +19,6 @@ class Stepper: UIViewController {
     }
     
     @IBAction func stepperAction(_ sender: UIStepper) {
-        
         number.text = String(describing: Int(sender.value))
-        
     }
 }

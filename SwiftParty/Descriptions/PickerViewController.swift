@@ -14,9 +14,11 @@ class PickerViewController: UIViewController, UIPickerViewDataSource, UIPickerVi
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         pickerView.dataSource = self
         pickerView.delegate = self
+
+        self.title = Model.items[Model.currentId]["title"]
     }
     
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {

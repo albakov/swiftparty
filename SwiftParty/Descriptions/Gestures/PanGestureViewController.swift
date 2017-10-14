@@ -17,11 +17,5 @@ class PanGestureViewController: UIViewController {
         }
         sender.setTranslation(CGPoint.zero, in: self.view)
     }
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
 
 }

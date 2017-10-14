@@ -20,11 +20,5 @@ class LongPressGestureViewController: UIViewController {
         }, completion: nil)
         label.text = "Сработало!"
     }
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
 
 }

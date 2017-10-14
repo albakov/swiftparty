@@ -11,9 +11,5 @@ import UIKit
 class SwipeGestureViewController: UIViewController {
 
     @IBOutlet weak var label: UILabel!
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
 
 }

@@ -40,7 +40,8 @@ class First: UIViewController, UITableViewDataSource, UITableViewDelegate {
        if let segue = Model.items[indexPath.row]["segue"] {
         performSegue(withIdentifier: segue, sender: self) }
         
-        table.deselectRow(at: indexPath, animated: true) // убираем выделение при нажатии на ячейку
+        // убираем выделение при нажатии на ячейку
+        table.deselectRow(at: indexPath, animated: true)
     }
 
 }

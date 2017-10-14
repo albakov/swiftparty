@@ -14,11 +14,5 @@ class TapGestureViewController: UIViewController {
     @IBAction func handleTap(_ sender: UITapGestureRecognizer) {
         textField.text = "Прекрасно!"
     }
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
 
 }
