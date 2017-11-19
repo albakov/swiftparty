@@ -29,6 +29,7 @@ struct Model {
         ["title":"Progress", "segue":"progress", "image":"Progress"],
         ["title":"Gestures", "segue":"gestures", "image":"RotateGesture"],
         ["title":"Picker View", "segue":"PickerView", "image":"PickerView"],
+        ["title":"Date Picker View", "segue":"datePicker", "image":"DatePicker"],
     ]
     
     // MARK: Other variables

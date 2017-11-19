@@ -14,7 +14,7 @@
 		8468A2FE1F8E83B1004865A4 /* TapGestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8468A2FD1F8E83B1004865A4 /* TapGestureViewController.swift */; };
 		8468A3001F8E863A004865A4 /* LongPressGestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8468A2FF1F8E863A004865A4 /* LongPressGestureViewController.swift */; };
 		8468A3021F8E9CC7004865A4 /* SwipeGestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8468A3011F8E9CC7004865A4 /* SwipeGestureViewController.swift */; };
-		8468A3041F8EB982004865A4 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8468A3031F8EB982004865A4 /* PickerViewController.swift */; };
+		8468A3041F8EB982004865A4 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8468A3031F8EB982004865A4 /* PickerView.swift */; };
 		84A688041F8D5859006C2B44 /* GestureTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A688031F8D5859006C2B44 /* GestureTableViewController.swift */; };
 		84A688061F8D5933006C2B44 /* GesturesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A688051F8D5933006C2B44 /* GesturesTableViewCell.swift */; };
 		84A6880A1F8D626A006C2B44 /* PanGestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A688091F8D626A006C2B44 /* PanGestureViewController.swift */; };
@@ -28,6 +28,7 @@
 		9CA424201F7EE53100061642 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CA4241F1F7EE53100061642 /* Assets.xcassets */; };
 		9CA424231F7EE53100061642 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CA424211F7EE53100061642 /* LaunchScreen.storyboard */; };
 		9CCA13F31F8BEC5F001FA00F /* Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCA13F21F8BEC5F001FA00F /* Progress.swift */; };
+		9CDEB82C1FC182BB00316EE1 /* DatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDEB82B1FC182BB00316EE1 /* DatePicker.swift */; };
 		9CFA1EE61F7F911600A0EEE6 /* First.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFA1EE51F7F911600A0EEE6 /* First.swift */; };
 		9CFA1EE81F7F91A900A0EEE6 /* TableCelll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFA1EE71F7F91A900A0EEE6 /* TableCelll.swift */; };
 		9CFA1EEA1F7F926700A0EEE6 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFA1EE91F7F926700A0EEE6 /* Model.swift */; };
@@ -43,7 +44,7 @@
 		8468A2FD1F8E83B1004865A4 /* TapGestureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureViewController.swift; sourceTree = "<group>"; };
 		8468A2FF1F8E863A004865A4 /* LongPressGestureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGestureViewController.swift; sourceTree = "<group>"; };
 		8468A3011F8E9CC7004865A4 /* SwipeGestureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeGestureViewController.swift; sourceTree = "<group>"; };
-		8468A3031F8EB982004865A4 /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
+		8468A3031F8EB982004865A4 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
 		84A688031F8D5859006C2B44 /* GestureTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureTableViewController.swift; sourceTree = "<group>"; };
 		84A688051F8D5933006C2B44 /* GesturesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GesturesTableViewCell.swift; sourceTree = "<group>"; };
 		84A688091F8D626A006C2B44 /* PanGestureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanGestureViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +60,7 @@
 		9CA424221F7EE53100061642 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CA424241F7EE53100061642 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CCA13F21F8BEC5F001FA00F /* Progress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Progress.swift; sourceTree = "<group>"; };
+		9CDEB82B1FC182BB00316EE1 /* DatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePicker.swift; sourceTree = "<group>"; };
 		9CFA1EE51F7F911600A0EEE6 /* First.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = First.swift; sourceTree = "<group>"; };
 		9CFA1EE71F7F91A900A0EEE6 /* TableCelll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCelll.swift; sourceTree = "<group>"; };
 		9CFA1EE91F7F926700A0EEE6 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
@@ -137,8 +139,9 @@
 				363A02951F81130300410413 /* ActivityIndicator.swift */,
 				3675CD701F813B2500904D5C /* Stepper.swift */,
 				9CCA13F21F8BEC5F001FA00F /* Progress.swift */,
-				8468A3031F8EB982004865A4 /* PickerViewController.swift */,
+				8468A3031F8EB982004865A4 /* PickerView.swift */,
 				8468A2FC1F8E7579004865A4 /* Gestures */,
+				9CDEB82B1FC182BB00316EE1 /* DatePicker.swift */,
 			);
 			path = Descriptions;
 			sourceTree = "<group>";
@@ -219,7 +222,7 @@
 				9C36B3961F80E5CA00A4EEEB /* Slider.swift in Sources */,
 				84A6880A1F8D626A006C2B44 /* PanGestureViewController.swift in Sources */,
 				9C64501C1F80072400360A10 /* Segment.swift in Sources */,
-				8468A3041F8EB982004865A4 /* PickerViewController.swift in Sources */,
+				8468A3041F8EB982004865A4 /* PickerView.swift in Sources */,
 				363A02941F803C8C00410413 /* ImageContentMode.swift in Sources */,
 				363A02961F81130300410413 /* ActivityIndicator.swift in Sources */,
 				8468A3021F8E9CC7004865A4 /* SwipeGestureViewController.swift in Sources */,
@@ -238,6 +241,7 @@
 				3675CD711F813B2500904D5C /* Stepper.swift in Sources */,
 				9CFA1EEA1F7F926700A0EEE6 /* Model.swift in Sources */,
 				9C2EB1B81F7FB1A00058FDD9 /* Switch.swift in Sources */,
+				9CDEB82C1FC182BB00316EE1 /* DatePicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
